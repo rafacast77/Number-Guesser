@@ -24,15 +24,14 @@ maxNum_EL.textContent = maxNum;
 ////////////////////////////////////////////////////////////////////////////////
 // Event Listeners
 ////////////////////////////////////////////////////////////////////////////////
-// Runs a guess
-guessBtn_EL.addEventListener('click', runGuess);
-
 // Play again
 gameDiv_EL.addEventListener('mousedown', function (e) {
-  if (e.target.className === 'play-again') {
+  if (e.target.className === 'button-primary') {
     window.location.reload();
   }
 });
+// Runs a guess
+guessBtn_EL.addEventListener('click', runGuess);
 
 ////////////////////////////////////////////////////////////////////////////////
 // Functions
@@ -67,7 +66,8 @@ function runGuess() {
 function message(msg, playAgain, color) {
   if (playAgain) {
     guessBtn_EL.value = 'Play again';
-    guessBtn_EL.className = 'play-again';
+    guessBtn_EL.removeEventListener('click', runGuess);
+    guessBtn_EL.className = 'button-primary';
     numberInput_EL.disabled = 'true';
     numberInput_EL.style.backgroundColor = '#F0F0F0';
   }

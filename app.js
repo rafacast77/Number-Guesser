@@ -30,7 +30,7 @@ gameDiv_EL.addEventListener('mousedown', function (e) {
     window.location.reload();
   }
 });
-// Runs a guess
+// Run a guess
 guessBtn_EL.addEventListener('click', runGuess);
 
 ////////////////////////////////////////////////////////////////////////////////

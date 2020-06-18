@@ -13,4 +13,4 @@ Number Guesser hot and cold edition allows you to play a simple game where you m
 
 
 
-![Colors](images/task_list_color_palette.png?raw=true "Color Palette")
+![Colors](img/Number%20Guesser.jpg?raw=true "Color Palette")

@@ -1,5 +1,5 @@
 # :video_game: Number-Guesser game -- HOT	and COLD Edition :fire: :snowflake:
-Number Guesser hot and cold edition allows you to play a simple game where you must guess a number between 1 and 10 within 3 tries. Every try the game gives feedback weather you are close to the guess.
+Number Guesser hot and cold edition allows you to play a simple game where you must guess a number between 1 and 10 within 3 tries. Every try the game gives feedback weather you are close to the guess(hot) or far from it (cold).
 ## Technologies and techniques used for this project
 * **HTML 5**
 * **CSS**
